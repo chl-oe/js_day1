@@ -1,11 +1,12 @@
-function i() {
+function nbr(i) {
+  let result;
   if (i > 0) {
-    return "+";
+    result = "+";
   } else if (i < 0) {
-    return "-";
+    result = "-";
   } else {
-    return 0;
+    result = 0;
   }
+  return result;
 }
-
-module.exports = i; 
+module.exports = nbr; 
