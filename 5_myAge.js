@@ -1,6 +1,6 @@
 function age(i) {
   let result;
-  if (i >= 18) {
+  if (age >= 18) {
     result = "Majeur";
   } else {
     result = "Mineur";

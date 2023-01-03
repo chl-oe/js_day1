@@ -1,6 +1,7 @@
 function evilAge(i) {
+  let result
   const parsed = parseInt(i)
-  if (i >= 18) {
+  if (parsed >= 18) {
     result = "Majeur";
   } else {
     result = "Mineur";

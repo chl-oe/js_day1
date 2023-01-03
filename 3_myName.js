@@ -1,4 +1,4 @@
-function name () {
+function name() {
   return "Robert";
 }
 
