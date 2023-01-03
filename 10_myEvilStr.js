@@ -1,7 +1,6 @@
-function evilStr () {
-  var evilString = ["a", "b", "c"];
-  evilString.reverse(); // ["c", "b", "a"]
+function myEvilStr(str) {
+  return str.split("").reverse().join("");
 }
-console.log(evilStr()) 
+console.log(myEvilStr("hello word")) 
 
-module.exports = evilStr;
+module.exports = myEvilStr;
