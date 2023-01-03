@@ -1,11 +1,9 @@
-function age(i) {
-  let result;
-  if (age >= 18) {
-    result = "Majeur";
+const age = (i) => {
+  if (i >= 18) {
+    return "Majeur";
   } else {
-    result = "Mineur";
+    return "Mineur";
   }
-  return result;
 }
 
 module.exports = age;

@@ -1,12 +1,11 @@
-function nbr(i) {
-  let result;
+const nbr = (i) => {
   if (i > 0) {
-    result = "+";
+    return "+";
   } else if (i < 0) {
-    result = "-";
+    return "-";
   } else {
-    result = 0;
+    return "0";
   }
-  return result;
 }
+
 module.exports = nbr; 

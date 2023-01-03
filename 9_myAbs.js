@@ -1,5 +1,5 @@
-function main(num) {
-  return Math.abs(num)
+const myAbs = (number) => {
+  return Math.abs(number)
 }
 
-module.exports = main;
+module.exports = myAbs;

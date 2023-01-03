@@ -1,12 +1,10 @@
-function evilAge(i) {
-  let result
+const evilAge = (i) => {
   const parsed = parseInt(i)
   if (parsed >= 18) {
-    result = "Majeur";
+    return "Majeur";
   } else {
-    result = "Mineur";
+    return "Mineur";
   }
-  return result;
 }
 
 module.exports = evilAge;
