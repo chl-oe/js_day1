@@ -5,5 +5,5 @@ const myPushItem = (monTableau, addBox) => {
 // ou const myPushItem = (monTableau, addBox) => [...monTableau, addBox];
 // ... correspond à un opérateur de copie
 
-// console.log(myPushItem([0, 1, 2], 3));
+console.log(myPushItem([0, 1, 2], 3)); // [0, 1, 2, 3]
 module.exports = myPushItem;
