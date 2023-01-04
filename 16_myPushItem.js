@@ -1,5 +1,5 @@
-const myPushItem = (monTableau, a) => {
-  monTableau.push(a)
+const myPushItem = (monTableau, addBox) => {
+  monTableau.push(addBox);
   return monTableau;
 }
 

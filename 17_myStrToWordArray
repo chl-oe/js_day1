@@ -1,0 +1,6 @@
+const myStrToWordArray = (str) => {
+  return str.trim().split(" ");
+}
+
+console.log(myStrToWordArray("Hello World"))
+module.exports = myStrToWordArray;
