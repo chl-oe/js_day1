@@ -1,6 +1,9 @@
 const mySortWordArray = (str) => {
-  return str.trim().split(" ").sort();
+  return str === "" ? [] : str.split(" ").sort();
 }
 
-// console.log(mySortWordArray("b c a"))
+console.log(mySortWordArray("b c a"))
 module.exports = mySortWordArray;
+
+
+//return str.trim().split(" ").sort();

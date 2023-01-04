@@ -1,6 +1,6 @@
 const myStrToWordArray = (str) => {
-  return str.trim().split(" ");
+  return str.trim([]).split(" "); // ou possibilité de l'écrire en ternaire : return str === "" ? [] : str.split(" ");
 }
 
-console.log(myStrToWordArray("Hello World"))
+//console.log(myStrToWordArray("Hello World"))
 module.exports = myStrToWordArray;
