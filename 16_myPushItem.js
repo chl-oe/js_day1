@@ -1,3 +1,5 @@
+// Ajoute une case au tableau renvoi le tableau modifié, la case ajoutée prend la valeur du 2e paramètre
+
 const myPushItem = (monTableau, addBox) => {
   monTableau.push(addBox);
   return monTableau;
