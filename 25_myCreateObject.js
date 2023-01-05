@@ -16,6 +16,10 @@ const myCreateObject = (arg1, arg2, arg3) => {
   return profil.description();
 }
 
+// On peut l'écrire également de cette manière : let myCreateObject = (arg1, arg2, arg3) => {
+//                                                   return {surname: arg1, name: arg2, age: arg3};
+//                                                }
+
 console.log(myCreateObject("Guilian", "Ganster", 23));//{surname: "Guilian", name: "Ganster", age: 23}
 
 module.exports = myCreateObject;
