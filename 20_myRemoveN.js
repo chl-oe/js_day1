@@ -11,8 +11,3 @@ console.log(myRemoveN(["hello", "world"], 0)); // ["world"]
 console.log(myRemoveN(["hello", "world"], 1)); // ["hello"]
 console.log(myRemoveN(["hello", "world"], 2)); // ["hello"]
 module.exports = myRemoveN;
-
-// const myRemoveN = (tableau, N) => {
-// tableau.splice(N, 1);
-// return tableau;
-// }

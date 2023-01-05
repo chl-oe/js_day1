@@ -1,21 +1,13 @@
 // Renvoi un objet, possédant 3 champs, nom et prénom et age prenant la valeur des paramètre entré
-// 1er paramètre: Prénom
-// 2e paramètre: Nom
+// 1er paramètre: surname
+// 2e paramètre: name
 // 3e paramètre: age
 
-const myCreateObject = (arg1, arg2, arg3) => {
-  let profil = {
-    surname: arg1,
-    name: arg2,
-    age: arg3,
-
-    description: function () {
-      return `{surname: "${this.surname}", name: "${this.name}", age: ${this.age}}`;
-    }
-  }
-  return profil;
+const myCreateObject = (surname, name, age) => { // comprends le nom, le prénom et l'âge
+  return {surname, name, age}
 }
 
-console.log(myCreateObject("Guilian", "Ganster", 23));//{surname: "Guilian", name: "Ganster", age: 23}
+console.log(myCreateObject("Guilian", "Ganster", 23)); //De base on déclare une fonction car présence de parenthèses
+//Résultat attendu ou return = un objet car présence d'accolade => {surname: "Guilian", name: "Ganster", age: 23}
 
 module.exports = myCreateObject;
