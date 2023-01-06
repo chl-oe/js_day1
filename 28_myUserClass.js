@@ -1,7 +1,7 @@
 // Créez une classe User,
 // Cette classe doit posséder:
 // un constructeur, avec le prénom, nom, age
-// une méthode (fonction), presentation(), qui permet à l’utilisateur de se présenter
+// une méthode (fonction) => presentation(), qui permet à l’utilisateur de se présenter
 // ⚠ Cette fois ce n’est pas une fonction qui doit être affecté a module.exports, mais une classe
 
 
@@ -20,4 +20,4 @@ let me = new User("Guilian", "Ganster", 22);
 
 console.log(me.presentation()); //"Je m'apelle Guilian Ganster, j'ai 22 ans"
 
-module.exports = User
+module.exports = User;
